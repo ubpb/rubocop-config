@@ -11,8 +11,8 @@ Gem::Specification.new do |spec|
   spec.files = Dir["lib/**/*", "config/**/*", "MIT-LICENSE", "README.md"]
 
   spec.add_dependency "railties", ">= 6.0.0"
-  spec.add_dependency "standard", ">= 0"
-  spec.add_dependency "rubocop", ">= 0"
-  spec.add_dependency "rubocop-performance", ">= 0"
-  spec.add_dependency "rubocop-rails", ">= 0"
+  spec.add_dependency "standard", ">= 1.0"
+  spec.add_dependency "rubocop", ">= 1.0"
+  spec.add_dependency "rubocop-performance", ">= 1.0"
+  spec.add_dependency "rubocop-rails", ">= 2.0"
 end
