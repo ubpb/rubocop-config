@@ -3,5 +3,5 @@ module UBPB
   end
 end
 
-require "rubocop-config/version"
-require "rubocop-config/engine"
+require "ubpb/rubocop-config/version"
+require "ubpb/rubocop-config/engine"
