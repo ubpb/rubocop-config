@@ -26,10 +26,10 @@ create_file ".rubocop.yml", <<~YML
     standard-custom: config/base.yml
 
   inherit_from: # order matters
-    - "https://github.com/ubpb/rubocop-config/blob/main/config/rails.yml"
-    - "https://github.com/ubpb/rubocop-config/blob/main/config/custom.yml"
+    - "https://raw.githubusercontent.com/ubpb/rubocop-config/main/config/rails.yml"
+    - "https://raw.githubusercontent.com/ubpb/rubocop-config/main/config/custom.yml"
     - .rubocop_todo.yml
-    - "https://github.com/ubpb/rubocop-config/blob/main/config/strict.yml"
+    - "https://raw.githubusercontent.com/ubpb/rubocop-config/main/config/strict.yml"
 
   AllCops:
     SuggestExtensions: false
