@@ -11,7 +11,29 @@ create_file ".rubocop.yml", <<~YML
   # !!DO NOT EDIT MANUALLY!!
   # Use .rubocop_custom.yml instead
   #
+  inherit_mode:
+    merge:
+      - Exclude
+
+  require:
+    - standard
+    - rubocop-performance
+    - rubocop-rails
+
   inherit_gem:
-    ubpb-rubocop-config: config/base.yml
+    standard: config/base.yml
+    standard-performance: config/base.yml
+    standard-custom: config/base.yml
+    ubpb-rubocop-config:
+      - config/rails.yml
+      - config/custom.yml
+
+  inherit_from:
+    - .rubocop_todo.yml
+    - .rubpcop_custom.yml
+
+  AllCops:
+    SuggestExtensions: false
+    TargetRubyVersion: 3.2
 
 YML
