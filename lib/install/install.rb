@@ -52,19 +52,19 @@ create_file ".rubocop_strict.yml", <<~YML
   #
 
   Lint/Debugger: # don't leave binding.pry or debugger
-  Enabled: true
-  Exclude: []
+    Enabled: true
+    Exclude: []
 
   Rails/Output: # Don't leave puts-debugging
-  Enabled: true
-  Exclude: []
+    Enabled: true
+    Exclude: []
 
   Rails/FindEach: # each could severely affect the performance, use find_each
-  Enabled: true
-  Exclude: []
+    Enabled: true
+    Exclude: []
 
   Rails/UniqBeforePluck: # uniq.pluck and not pluck.uniq
-  Enabled: true
-  Exclude: []
+    Enabled: true
+    Exclude: []
 YML
 
