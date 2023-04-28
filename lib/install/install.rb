@@ -30,7 +30,7 @@ create_file ".rubocop.yml", <<~YML
 
   inherit_from:
     - .rubocop_todo.yml
-    - .rubpcop_custom.yml
+    - .rubocop_custom.yml
 
   AllCops:
     SuggestExtensions: false
