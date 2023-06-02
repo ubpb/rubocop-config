@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "railties", ">= 6.0.0"
   spec.add_dependency "standard", ">= 1.0"
+  spec.add_dependency "standard-rails", ">= 0.1.0"
   spec.add_dependency "rubocop", ">= 1.0"
   spec.add_dependency "rubocop-performance", ">= 1.0"
-  spec.add_dependency "rubocop-rails", ">= 2.0"
 end
