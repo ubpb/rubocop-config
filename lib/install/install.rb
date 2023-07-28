@@ -19,6 +19,7 @@ create_file ".rubocop.yml", <<~YML
 
   require:
     - standard
+    - standard-custom
     - rubocop-performance
     - rubocop-rails
 
