@@ -1,1 +1,1 @@
-# Default Rubocop configuration for project at UB Paderborn
+# Default Rubocop configuration for projects at UB Paderborn
