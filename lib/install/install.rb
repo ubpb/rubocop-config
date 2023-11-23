@@ -1,7 +1,5 @@
 say "Installing default Rubocop configuration for projects at UB Paderborn"
 
-create_file ".rubocop_todo.yml"
-
 create_file ".rubocop_custom.yml"
 
 create_file ".rubocop.yml", <<~YML
@@ -31,7 +29,6 @@ create_file ".rubocop.yml", <<~YML
       - config/custom.yml
 
   inherit_from:
-    - .rubocop_todo.yml
     - .rubocop_strict.yml
     - .rubocop_custom.yml
 
