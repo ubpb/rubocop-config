@@ -22,10 +22,10 @@ create_file ".rubocop.yml", <<~YML
     - rubocop-rails
 
   inherit_gem:
-    standard: config/base.yml
-    standard-performance: config/base.yml
-    standard-custom: config/base.yml
     ubpb-rubocop-config: config/base.yml
+    standard-custom: config/base.yml
+    standard-performance: config/base.yml
+    standard: config/base.yml
 
   inherit_from:
     - .rubocop_custom.yml
