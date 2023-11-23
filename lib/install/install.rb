@@ -34,5 +34,4 @@ create_file ".rubocop.yml", <<~YML
   AllCops:
     SuggestExtensions: false
     TargetRubyVersion: 3.2
-
 YML
