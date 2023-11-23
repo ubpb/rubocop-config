@@ -25,8 +25,7 @@ create_file ".rubocop.yml", <<~YML
     standard: config/base.yml
     standard-performance: config/base.yml
     standard-custom: config/base.yml
-    ubpb-rubocop-config:
-      - config/custom.yml
+    ubpb-rubocop-config: config/base.yml
 
   inherit_from:
     - .rubocop_custom.yml
