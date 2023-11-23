@@ -4,3 +4,7 @@ Layout/EmptyLinesAroundClassBody:
 Layout/ExtraSpacing:
   Enabled: true
   AllowForAlignment: true
+
+Lint/Debugger: # don't leave binding.pry or debugger
+  Enabled: true
+  Exclude: []
